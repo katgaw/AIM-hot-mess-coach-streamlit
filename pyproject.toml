@@ -1,0 +1,16 @@
+[project]
+name = "aim-hot-mess-coach"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.121.2",
+    "uvicorn>=0.38.0",
+    "python-multipart>=0.0.9",
+    "streamlit>=1.38.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "pypdf2>=3.0.0",
+    "pandas>=2.2.0",
+]
